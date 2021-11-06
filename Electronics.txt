@@ -1,0 +1,11 @@
+create table ELECTRONICS(
+
+  CustomsStat varchar2(4) not null enable,
+  Barcode int PRIMARY KEY,
+  Price int,
+  Quantity int,
+  Category varchar2(25),
+  DoM int,
+  BatteryStat varchar2(4) not null enable
+
+);
