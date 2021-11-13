@@ -1,0 +1,6 @@
+CREATE TABLE  "SUPPLIER" 
+   (	"Name" VARCHAR2(25), 
+	"PhoneNumber" NUMBER(*,0) NOT NULL ENABLE, 
+	"Email" VARCHAR2(40) NOT NULL ENABLE, 
+	 PRIMARY KEY ("Name") ENABLE
+   ) ;
