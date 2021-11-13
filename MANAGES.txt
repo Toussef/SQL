@@ -1,0 +1,7 @@
+create table MANAGES(
+ Country varchar2(25) not null enable,
+ City varchar2(25) not null enable,
+ Street varchar2(25) not null enable,
+ BranchNumber int,
+ NbOfEmployees int,
+ 
