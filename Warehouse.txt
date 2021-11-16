@@ -1,6 +1,6 @@
 CREATE TABLE  "WAREHOUSE" 
-   (	"Number" NUMBER(*,0), 
-	"SPACE" FLOAT(126), 
+   (	"Number" NUMBER(4,0), 
+	"SPACE" NUMBER(38,0), 
 	"LOCATION" VARCHAR2(100), 
 	 PRIMARY KEY ("Number") ENABLE
    ) ;
